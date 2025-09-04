@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\!25-26\\Desktop-app\\MineSweeper\\",
+  "WorkspaceRootPath": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|h:\\!25-26\\desktop-app\\minesweeper\\minesweeper\\gamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|g:\\school\\25-26\\desktop-app\\minesweeper\\minesweeper\\gamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|solutionrelative:minesweeper\\gamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|h:\\!25-26\\desktop-app\\minesweeper\\minesweeper\\bombfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|g:\\school\\25-26\\desktop-app\\minesweeper\\minesweeper\\bombfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|solutionrelative:minesweeper\\bombfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|h:\\!25-26\\desktop-app\\minesweeper\\minesweeper\\emptyfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|g:\\school\\25-26\\desktop-app\\minesweeper\\minesweeper\\emptyfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|solutionrelative:minesweeper\\emptyfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|h:\\!25-26\\desktop-app\\minesweeper\\minesweeper\\numberfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|g:\\school\\25-26\\desktop-app\\minesweeper\\minesweeper\\numberfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|solutionrelative:minesweeper\\numberfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|h:\\!25-26\\desktop-app\\minesweeper\\minesweeper\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|g:\\school\\25-26\\desktop-app\\minesweeper\\minesweeper\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|solutionrelative:minesweeper\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|h:\\!25-26\\desktop-app\\minesweeper\\minesweeper\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|g:\\school\\25-26\\desktop-app\\minesweeper\\minesweeper\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|solutionrelative:minesweeper\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|h:\\!25-26\\desktop-app\\minesweeper\\minesweeper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|g:\\school\\25-26\\desktop-app\\minesweeper\\minesweeper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9721404-CA11-4DD9-A725-88B84FCC8F6F}|MineSweeper\\MineSweeper.csproj|solutionrelative:minesweeper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -44,49 +44,46 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "BombField.cs",
-              "DocumentMoniker": "H:\\!25-26\\Desktop-app\\MineSweeper\\MineSweeper\\BombField.cs",
+              "DocumentMoniker": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\BombField.cs",
               "RelativeDocumentMoniker": "MineSweeper\\BombField.cs",
-              "ToolTip": "H:\\!25-26\\Desktop-app\\MineSweeper\\MineSweeper\\BombField.cs*",
-              "RelativeToolTip": "MineSweeper\\BombField.cs*",
+              "ToolTip": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\BombField.cs",
+              "RelativeToolTip": "MineSweeper\\BombField.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T11:25:40.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T11:25:40.558Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "EmptyField.cs",
-              "DocumentMoniker": "H:\\!25-26\\Desktop-app\\MineSweeper\\MineSweeper\\EmptyField.cs",
+              "DocumentMoniker": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\EmptyField.cs",
               "RelativeDocumentMoniker": "MineSweeper\\EmptyField.cs",
-              "ToolTip": "H:\\!25-26\\Desktop-app\\MineSweeper\\MineSweeper\\EmptyField.cs*",
-              "RelativeToolTip": "MineSweeper\\EmptyField.cs*",
+              "ToolTip": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\EmptyField.cs",
+              "RelativeToolTip": "MineSweeper\\EmptyField.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T11:25:17.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T11:25:17.406Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "NumberField.cs",
-              "DocumentMoniker": "H:\\!25-26\\Desktop-app\\MineSweeper\\MineSweeper\\NumberField.cs",
+              "DocumentMoniker": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\NumberField.cs",
               "RelativeDocumentMoniker": "MineSweeper\\NumberField.cs",
-              "ToolTip": "H:\\!25-26\\Desktop-app\\MineSweeper\\MineSweeper\\NumberField.cs*",
-              "RelativeToolTip": "MineSweeper\\NumberField.cs*",
+              "ToolTip": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\NumberField.cs",
+              "RelativeToolTip": "MineSweeper\\NumberField.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T11:24:05.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T11:24:05.423Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GameHandler.cs",
-              "DocumentMoniker": "H:\\!25-26\\Desktop-app\\MineSweeper\\MineSweeper\\GameHandler.cs",
+              "DocumentMoniker": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\GameHandler.cs",
               "RelativeDocumentMoniker": "MineSweeper\\GameHandler.cs",
-              "ToolTip": "H:\\!25-26\\Desktop-app\\MineSweeper\\MineSweeper\\GameHandler.cs*",
-              "RelativeToolTip": "MineSweeper\\GameHandler.cs*",
+              "ToolTip": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\GameHandler.cs",
+              "RelativeToolTip": "MineSweeper\\GameHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T10:37:20.976Z",
@@ -96,40 +93,37 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Field.cs",
-              "DocumentMoniker": "H:\\!25-26\\Desktop-app\\MineSweeper\\MineSweeper\\Field.cs",
+              "DocumentMoniker": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\Field.cs",
               "RelativeDocumentMoniker": "MineSweeper\\Field.cs",
-              "ToolTip": "H:\\!25-26\\Desktop-app\\MineSweeper\\MineSweeper\\Field.cs",
+              "ToolTip": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\Field.cs",
               "RelativeToolTip": "MineSweeper\\Field.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T09:04:49.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T09:04:49.39Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Table.cs",
-              "DocumentMoniker": "H:\\!25-26\\Desktop-app\\MineSweeper\\MineSweeper\\Table.cs",
+              "DocumentMoniker": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\Table.cs",
               "RelativeDocumentMoniker": "MineSweeper\\Table.cs",
-              "ToolTip": "H:\\!25-26\\Desktop-app\\MineSweeper\\MineSweeper\\Table.cs*",
-              "RelativeToolTip": "MineSweeper\\Table.cs*",
+              "ToolTip": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\Table.cs",
+              "RelativeToolTip": "MineSweeper\\Table.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAqwCcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T09:04:09.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T09:04:09.796Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "H:\\!25-26\\Desktop-app\\MineSweeper\\MineSweeper\\Program.cs",
+              "DocumentMoniker": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\Program.cs",
               "RelativeDocumentMoniker": "MineSweeper\\Program.cs",
-              "ToolTip": "H:\\!25-26\\Desktop-app\\MineSweeper\\MineSweeper\\Program.cs",
+              "ToolTip": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\Program.cs",
               "RelativeToolTip": "MineSweeper\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T09:03:13.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T09:03:13.035Z"
             }
           ]
         }

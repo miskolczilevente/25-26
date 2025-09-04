@@ -60,6 +60,8 @@ namespace Minesweeper
                 }
             }
 
+
+
             Console.WriteLine("Szeretnél új játékot? (i/n)");
             string restart = Console.ReadLine();
             if (restart.ToLower() == "i")
@@ -67,5 +69,7 @@ namespace Minesweeper
                 Program.Main(null);
             }
         }
+
+        
     }
 }
