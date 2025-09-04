@@ -1,0 +1,23 @@
+{
+  "name": "elso_projekt",
+  "version": "1.0.0",
+  "description": "Ez a projekt a 13.bc csoportban keszult",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "keywords": [
+    "Backend",
+    "Javascript",
+    "Express"
+  ],
+  "author": "Levente",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

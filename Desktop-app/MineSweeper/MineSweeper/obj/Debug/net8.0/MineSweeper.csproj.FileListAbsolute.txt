@@ -1,0 +1,14 @@
+H:\!25-26\Desktop-app\MineSweeper\MineSweeper\obj\Debug\net8.0\MineSweeper.GeneratedMSBuildEditorConfig.editorconfig
+H:\!25-26\Desktop-app\MineSweeper\MineSweeper\obj\Debug\net8.0\MineSweeper.AssemblyInfoInputs.cache
+H:\!25-26\Desktop-app\MineSweeper\MineSweeper\obj\Debug\net8.0\MineSweeper.AssemblyInfo.cs
+H:\!25-26\Desktop-app\MineSweeper\MineSweeper\obj\Debug\net8.0\MineSweeper.csproj.CoreCompileInputs.cache
+H:\!25-26\Desktop-app\MineSweeper\MineSweeper\bin\Debug\net8.0\MineSweeper.exe
+H:\!25-26\Desktop-app\MineSweeper\MineSweeper\bin\Debug\net8.0\MineSweeper.deps.json
+H:\!25-26\Desktop-app\MineSweeper\MineSweeper\bin\Debug\net8.0\MineSweeper.runtimeconfig.json
+H:\!25-26\Desktop-app\MineSweeper\MineSweeper\bin\Debug\net8.0\MineSweeper.dll
+H:\!25-26\Desktop-app\MineSweeper\MineSweeper\bin\Debug\net8.0\MineSweeper.pdb
+H:\!25-26\Desktop-app\MineSweeper\MineSweeper\obj\Debug\net8.0\MineSweeper.dll
+H:\!25-26\Desktop-app\MineSweeper\MineSweeper\obj\Debug\net8.0\refint\MineSweeper.dll
+H:\!25-26\Desktop-app\MineSweeper\MineSweeper\obj\Debug\net8.0\MineSweeper.pdb
+H:\!25-26\Desktop-app\MineSweeper\MineSweeper\obj\Debug\net8.0\MineSweeper.genruntimeconfig.cache
+H:\!25-26\Desktop-app\MineSweeper\MineSweeper\obj\Debug\net8.0\ref\MineSweeper.dll
