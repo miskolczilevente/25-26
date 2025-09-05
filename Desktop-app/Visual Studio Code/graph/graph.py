@@ -32,7 +32,7 @@ def print_tree(node, graph, prefix="", is_last=True, visited=None, is_root=True)
     if visited is None:
         visited = set()
     if is_root:
-        print(node)
+        print("   " +  node)
     else:
         connector = "└─ " if is_last else "├─ "
         print(f"{prefix}{connector}{node}")
