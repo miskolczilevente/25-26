@@ -4,8 +4,12 @@
     {
         public override void Reveal()
         {
+            
             IsRevealed = true;
         }
+
+        
+        
 
         public override char GetSymbol()
         {

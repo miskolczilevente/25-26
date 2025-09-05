@@ -75,9 +75,30 @@ namespace Minesweeper
 
         public bool RevealField(int x, int y)
         {
-            if (!IsValid(x, y)) return true;
+            if (!IsValid(x, y) || fields[x, y].IsRevealed) return true;
+
             fields[x, y].Reveal();
-            return !(fields[x, y] is BombField);
+
+            if (fields[x, y] is EmptyField)
+            {
+                for (int i = x - 1; i <= x + 1; i++)
+                {
+                    for (int j = y - 1; j <= y + 1; j++)
+                    {
+                        if (IsValid(i, j))
+                        {
+                            RevealField(i, j); 
+                        }
+                    }
+                }
+            }
+
+            if (fields[x, y] is BombField)
+            {
+                return false;
+            }
+
+            return true;
         }
 
         public void ToggleFlag(int x, int y)

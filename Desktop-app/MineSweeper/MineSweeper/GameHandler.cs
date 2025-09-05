@@ -29,6 +29,12 @@ namespace Minesweeper
             Console.Write("Add meg a bombák számát: ");
             bombs = int.Parse(Console.ReadLine());
 
+            if (size > 10) 
+                size = 10;
+
+            if (bombs > (size * size - 1))
+                bombs = size * size - 1;
+
             table = new Table(size, bombs);
 
             bool running = true;
