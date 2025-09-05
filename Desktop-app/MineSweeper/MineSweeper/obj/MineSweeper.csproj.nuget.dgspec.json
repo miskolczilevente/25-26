@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\MineSweeper.csproj": {}
+    "H:\\!25-26\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\MineSweeper.csproj": {}
   },
   "projects": {
-    "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\MineSweeper.csproj": {
+    "H:\\!25-26\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\MineSweeper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\MineSweeper.csproj",
+        "projectUniqueName": "H:\\!25-26\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\MineSweeper.csproj",
         "projectName": "MineSweeper",
-        "projectPath": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\MineSweeper.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "G:\\School\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\obj\\",
+        "projectPath": "H:\\!25-26\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\MineSweeper.csproj",
+        "packagesPath": "C:\\Users\\miskolczi.levente\\.nuget\\packages\\",
+        "outputPath": "H:\\!25-26\\25-26\\Desktop-app\\MineSweeper\\MineSweeper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\miskolczi.levente\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

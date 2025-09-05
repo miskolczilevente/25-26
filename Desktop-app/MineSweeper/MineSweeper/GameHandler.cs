@@ -13,7 +13,8 @@ namespace Minesweeper
     {
         private int size, bombs;
 
-        public MinesweeperGame(int size, int bombs)
+        //public MinesweeperGame(int size, int bombs)
+        public MinesweeperGame()
         {
             this.size = size;
             this.bombs = bombs;
@@ -22,6 +23,14 @@ namespace Minesweeper
 
         public override void StartGame()
         {
+
+            Console.Write("Add meg a pálya méretét (pl. 8): ");
+            size = int.Parse(Console.ReadLine());
+            Console.Write("Add meg a bombák számát: ");
+            bombs = int.Parse(Console.ReadLine());
+
+            table = new Table(size, bombs);
+
             bool running = true;
             while (running)
             {
@@ -43,6 +52,7 @@ namespace Minesweeper
                     bool safe = table.RevealField(x, y);
                     if (!safe)
                     {
+                        table.RevealAll();           
                         table.PrintTable();
                         Console.WriteLine("💥 VESZTETTÉL! Bombára léptél!");
                         running = false;
@@ -53,11 +63,13 @@ namespace Minesweeper
                     table.ToggleFlag(x, y);
                     if (table.CheckWin())
                     {
+                        table.RevealAll();           
                         table.PrintTable();
                         Console.WriteLine("🎉 NYERTÉL! Minden bombát megjelöltél!");
                         running = false;
                     }
                 }
+
             }
 
 
