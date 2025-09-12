@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>functionGraph - Hívásgráf</title>
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Vis Network -->
+  <script type="text/javascript" src="https://unpkg.com/vis-network@9.1.2/dist/vis-network.min.js"></script>
+  <link href="https://unpkg.com/vis-network@9.1.2/dist/vis-network.min.css" rel="stylesheet" />
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(135deg, #f97316 0%, #fb923c 100%);
+      background-size: cover;
+    }
+
+    input[type="file"] { display: none; }
+
+    #graph {
+      flex: 1;
+      margin: 1rem 2rem;
+      border-radius: 1rem;
+      background: rgba(255, 165, 0, 0.15);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .vis-network .vis-node {
+      border-width: 2px;
+      border-color: #c05621;
+      background-color: #f97316;
+      border-radius: 10px;
+      font-size: 14px;
+      padding: 5px 10px;
+      color: white;
+    }
+
+    .vis-network .vis-edge { color: #c05621; }
+
+    header {
+      background-color: #ff7f50;
+      color: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      padding: 1rem 0;
+    }
+
+    .file-label {
+      background-color: #ff7f50;
+      color: white;
+      transition: all 0.2s;
+    }
+
+    .file-label:hover { background-color: #ff9100; }
+
+    .description {
+      margin: 0 2rem;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 1rem;
+      border-radius: 0.75rem;
+      text-align: center;
+      font-size: 1rem;
+      color: white;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body class="flex flex-col h-full">
+
+  <!-- Header -->
+  <header class="text-center">
+    <h1 class="text-3xl font-bold">functionGraph</h1>
+  </header>
+
+  <!-- Leírás -->
+  <div class="description">
+    Ez a vizualizáció a kiválasztott C# vagy szövegfájlok metódusainak hívásgráfját jeleníti meg. 
+    A node-ok a metódusokat, az élek a híváskapcsolatokat mutatják. 
+    A grafikon teljesen fix, a node-ok nem mozgathatók.
+  </div>
+
+  <!-- Fájl kiválasztás -->
+  <div class="flex justify-center my-4">
+    <label for="files" class="cursor-pointer px-6 py-3 rounded-lg shadow-md file-label">
+      Select Files
+    </label>
+    <input id="files" type="file" multiple accept=".cs,.txt" />
+  </div>
+
+  <!-- Grafikon -->
+  <div id="graph"></div>
+
+<script>
+function stripCommentsAndStrings(code) {
+  return code
+    .replace(/\/\*[^]*?\*\//g, ' ')
+    .replace(/\/\/.*$/gm, ' ')
+    .replace(/@?"(?:[^"\\]|\\.)*"/g, ' ')
+    .replace(/'(?:[^'\\]|\\.)*'/g, ' ');
+}
+
+function findMethods(text, file) {
+  const cleaned = stripCommentsAndStrings(text);
+  const regex = /\b([A-Za-z0-9_<>\[\]]+)\s+([A-Za-z_][A-Za-z0-9_]*)\s*\([^)]*\)\s*\{/g;
+  const methods = [];
+  let match;
+
+  while ((match = regex.exec(cleaned)) !== null) {
+    const name = match[2];
+    if (name === "if") continue;
+    const startPos = regex.lastIndex - 1;
+    let bracePos = cleaned.indexOf('{', startPos);
+    if (bracePos < 0) continue;
+
+    let depth = 0, i = bracePos;
+    for (; i < cleaned.length; i++) {
+      if (cleaned[i] === '{') depth++;
+      else if (cleaned[i] === '}') {
+        depth--;
+        if (depth === 0) { i++; break; }
+      }
+    }
+    methods.push({ id: methods.length, name, fileName: file, body: cleaned.slice(bracePos, i) });
+  }
+  return methods;
+}
+
+function findCalls(body) {
+  const exclude = new Set([
+    'if','for','while','switch','catch','lock','new','return','sizeof','typeof','checked','unchecked'
+  ]);
+
+  const bodyClean = stripCommentsAndStrings(body);
+  const callRegex = /\b([A-Za-z_][A-Za-z0-9_]*)\s*\(/g;
+  const calls = new Set();
+  let match;
+
+  while ((match = callRegex.exec(bodyClean)) !== null) {
+    const name = match[1];
+    if (!exclude.has(name)) calls.add(name);
+  }
+  return [...calls];
+}
+
+let methods = [], edges = [], network;
+
+async function parseFiles(files) {
+  methods = [];
+  edges = [];
+
+  for (const f of files) {
+    const text = await f.text();
+    const found = findMethods(text, f.name);
+    for (const m of found) { m.id = methods.length; methods.push(m); }
+  }
+
+  const index = {};
+  for (const m of methods) {
+    if (!index[m.name]) index[m.name] = [];
+    index[m.name].push(m);
+  }
+
+  for (const m of methods) {
+    const calls = findCalls(m.body);
+    for (const c of calls) {
+      if (index[c]) for (const target of index[c]) edges.push({ from: m.id, to: target.id });
+    }
+  }
+
+  renderGraph();
+}
+
+function renderGraph() {
+  if (!methods.length) { document.getElementById('graph').innerHTML = ''; return; }
+
+  const nodes = methods.map(m => ({
+    id: m.id,
+    label: m.name + '\n' + m.fileName,
+    shape: 'box',
+    color: { background: '#f97316', border: '#c05621', highlight: { background: '#fb923c', border: '#9a3412' } }
+  }));
+
+  const dedup = new Map();
+  for (const e of edges) dedup.set(e.from + '->' + e.to, e);
+
+  const edgesArr = [...dedup.values()].map(e => ({
+    from: e.from,
+    to: e.to,
+    arrows: { to: { enabled: true, type: 'arrow', scaleFactor: 1.5 } },
+    color: { color: '#c05621', highlight: '#9a3412' },
+    dashes: true,
+    smooth: { type: 'cubicBezier', roundness: 0.2 },
+    width: 2
+  }));
+
+  const data = { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edgesArr) };
+
+  const options = {
+    layout: { improvedLayout: true },
+    physics: { enabled: false },
+    interaction: { dragNodes: false, dragView: false, zoomView: true },
+    nodes: { shape: 'box', margin: 10, widthConstraint: { maximum: 220 }, font: { multi: 'html', color: 'white' } }
+  };
+
+  network = new vis.Network(document.getElementById('graph'), data, options);
+}
+
+document.getElementById('files').addEventListener('change', e => parseFiles([...e.target.files]));
+</script>
+</body>
+</html>
