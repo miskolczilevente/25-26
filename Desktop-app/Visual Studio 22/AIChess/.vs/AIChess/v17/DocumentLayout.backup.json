@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\aichess\\aichess\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|solutionrelative:aichess\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\aichess\\aichess\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|solutionrelative:aichess\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\aichess\\aichess\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|solutionrelative:aichess\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\aichess\\aichess\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|solutionrelative:aichess\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\aichess\\aichess\\puppetstype\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|solutionrelative:aichess\\puppetstype\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\aichess\\aichess\\puppetstype\\queen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|solutionrelative:aichess\\puppetstype\\queen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\aichess\\aichess\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|solutionrelative:aichess\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\aichess\\aichess\\puppet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|solutionrelative:aichess\\puppet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\aichess\\aichess\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|solutionrelative:aichess\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\aichess\\aichess\\puppetstype\\bishop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|solutionrelative:aichess\\puppetstype\\bishop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\aichess\\aichess\\puppetstype\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|solutionrelative:aichess\\puppetstype\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\aichess\\aichess\\puppetstype\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|solutionrelative:aichess\\puppetstype\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\aichess\\aichess\\puppetstype\\rook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|solutionrelative:aichess\\puppetstype\\rook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\aichess\\aichess\\aichess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{01DADDCC-1D3D-4C2D-90AD-6C90B797A36D}|AIChess\\AIChess.csproj|solutionrelative:aichess\\aichess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Rook.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\PuppetsType\\Rook.cs",
+              "RelativeDocumentMoniker": "AIChess\\PuppetsType\\Rook.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\PuppetsType\\Rook.cs",
+              "RelativeToolTip": "AIChess\\PuppetsType\\Rook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:27:54.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "King.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\PuppetsType\\King.cs",
+              "RelativeDocumentMoniker": "AIChess\\PuppetsType\\King.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\PuppetsType\\King.cs",
+              "RelativeToolTip": "AIChess\\PuppetsType\\King.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:27:35.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pawn.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\PuppetsType\\Pawn.cs",
+              "RelativeDocumentMoniker": "AIChess\\PuppetsType\\Pawn.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\PuppetsType\\Pawn.cs*",
+              "RelativeToolTip": "AIChess\\PuppetsType\\Pawn.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvyAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:27:28.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Bishop.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\PuppetsType\\Bishop.cs",
+              "RelativeDocumentMoniker": "AIChess\\PuppetsType\\Bishop.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\PuppetsType\\Bishop.cs",
+              "RelativeToolTip": "AIChess\\PuppetsType\\Bishop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:27:19.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Field.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\Field.cs",
+              "RelativeDocumentMoniker": "AIChess\\Field.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\Field.cs",
+              "RelativeToolTip": "AIChess\\Field.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:24:03.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Table.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\Table.cs",
+              "RelativeDocumentMoniker": "AIChess\\Table.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\Table.cs*",
+              "RelativeToolTip": "AIChess\\Table.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:23:46.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Puppet.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\Puppet.cs",
+              "RelativeDocumentMoniker": "AIChess\\Puppet.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\Puppet.cs",
+              "RelativeToolTip": "AIChess\\Puppet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:21:47.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\GameController.cs",
+              "RelativeDocumentMoniker": "AIChess\\GameController.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\GameController.cs",
+              "RelativeToolTip": "AIChess\\GameController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:21:28.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\Form1.cs",
+              "RelativeDocumentMoniker": "AIChess\\Form1.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\Form1.cs [Design]*",
+              "RelativeToolTip": "AIChess\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:21:02.446Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\Form1.cs",
+              "RelativeDocumentMoniker": "AIChess\\Form1.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\Form1.cs*",
+              "RelativeToolTip": "AIChess\\Form1.cs*",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:30:45.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Knight.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\PuppetsType\\Knight.cs",
+              "RelativeDocumentMoniker": "AIChess\\PuppetsType\\Knight.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\PuppetsType\\Knight.cs",
+              "RelativeToolTip": "AIChess\\PuppetsType\\Knight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:28:07.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "AIChess\\Form1.Designer.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\Form1.Designer.cs*",
+              "RelativeToolTip": "AIChess\\Form1.Designer.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwCYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:30:04.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Queen.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\PuppetsType\\Queen.cs",
+              "RelativeDocumentMoniker": "AIChess\\PuppetsType\\Queen.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\PuppetsType\\Queen.cs",
+              "RelativeToolTip": "AIChess\\PuppetsType\\Queen.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:27:44.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AIChess",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\AIChess.csproj",
+              "RelativeDocumentMoniker": "AIChess\\AIChess.csproj",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\AIChess\\AIChess\\AIChess.csproj",
+              "RelativeToolTip": "AIChess\\AIChess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-16T07:21:36.912Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

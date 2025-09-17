@@ -1,0 +1,17 @@
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\obj\Debug\net8.0-windows\AIChess.Form1.resources
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\obj\Debug\net8.0-windows\AIChess.csproj.GenerateResource.cache
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\obj\Debug\net8.0-windows\AIChess.GeneratedMSBuildEditorConfig.editorconfig
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\obj\Debug\net8.0-windows\AIChess.AssemblyInfoInputs.cache
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\obj\Debug\net8.0-windows\AIChess.AssemblyInfo.cs
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\obj\Debug\net8.0-windows\AIChess.csproj.CoreCompileInputs.cache
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\obj\Debug\net8.0-windows\AIChess.sourcelink.json
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\bin\Debug\net8.0-windows\AIChess.exe
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\bin\Debug\net8.0-windows\AIChess.deps.json
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\bin\Debug\net8.0-windows\AIChess.runtimeconfig.json
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\bin\Debug\net8.0-windows\AIChess.dll
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\bin\Debug\net8.0-windows\AIChess.pdb
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\obj\Debug\net8.0-windows\AIChess.dll
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\obj\Debug\net8.0-windows\refint\AIChess.dll
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\obj\Debug\net8.0-windows\AIChess.pdb
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\obj\Debug\net8.0-windows\AIChess.genruntimeconfig.cache
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\AIChess\AIChess\obj\Debug\net8.0-windows\ref\AIChess.dll
