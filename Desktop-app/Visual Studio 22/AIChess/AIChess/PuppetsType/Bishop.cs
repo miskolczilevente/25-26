@@ -22,7 +22,7 @@ namespace AIChess.PuppetsType
             if (!table.IsPathClear(X, Y, targetX, targetY)) return false;
 
             // Cél mező nem lehet saját bábu
-            return !table.IsOccupiedByAlly(targetX, targetY, IsWhite);
+            return !table.IsOccupiedByOwn(targetX, targetY, IsWhite);
         }
     }
 

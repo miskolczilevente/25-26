@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AIChess.PuppetsType
+﻿namespace AIChess.PuppetsType
 {
     public class Knight : Puppet
     {
@@ -12,11 +6,16 @@ namespace AIChess.PuppetsType
 
         public override bool IsValidMove(int targetX, int targetY, Table table)
         {
-            int dx = Math.Abs(targetX - X);
-            int dy = Math.Abs(targetY - Y);
+            int dx = System.Math.Abs(targetX - X);
+            int dy = System.Math.Abs(targetY - Y);
 
-            if ((dx == 1 && dy == 2) || (dx == 2 && dy == 1))
-                return !table.IsOccupiedByAlly(targetX, targetY, IsWhite);
+            // L alak (2+1 vagy 1+2)
+            if ((dx == 2 && dy == 1) || (dx == 1 && dy == 2))
+            {
+                // nem léphet saját bábu helyére
+                if (!table.IsOccupiedByOwn(targetX, targetY, IsWhite))
+                    return true;
+            }
 
             return false;
         }

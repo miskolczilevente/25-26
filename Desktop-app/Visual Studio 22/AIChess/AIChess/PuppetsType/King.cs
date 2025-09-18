@@ -1,30 +1,40 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AIChess;
 
-namespace AIChess.PuppetsType
+public class King : Puppet
 {
-    public class King : Puppet
+    public override string Symbol => "♔";
+
+    public override bool IsValidMove(int targetX, int targetY, Table table)
     {
-        public override string Symbol => "♔";
+        int dx = Math.Abs(targetX - X);
+        int dy = Math.Abs(targetY - Y);
 
-        public override bool IsValidMove(int targetX, int targetY, Table table)
+        // Normál 1 mezős lépés minden irányban
+        if (dx <= 1 && dy <= 1)
         {
-            int dx = Math.Abs(targetX - X);
-            int dy = Math.Abs(targetY - Y);
-
-            // Király: csak egy mező minden irányban
-            if (dx <= 1 && dy <= 1)
-            {
-                // Cél mező nem lehet saját bábu
-                return !table.IsOccupiedByAlly(targetX, targetY, IsWhite);
-            }
-
-            // Sáncolás nincs implementálva (egyszerűsített változat)
-            return false;
+            return !table.IsOccupiedByOwn(targetX, targetY, IsWhite);
         }
-    }
 
+        // Sáncolás: 2 mező vízszintes, ugyanazon soron
+        if (!HasMoved && dy == 0 && dx == 2)
+        {
+            int rookX = targetX > X ? 7 : 0;
+            var rook = table.Pieces
+                .OfType<Rook>()
+                .FirstOrDefault(r => r.X == rookX && r.Y == Y && r.IsWhite == IsWhite);
+
+            if (rook != null && !rook.HasMoved)
+            {
+                // Ellenőrizd, hogy az útvonal üres
+                int step = rookX > X ? 1 : -1;
+                for (int i = X + step; i != rookX; i += step)
+                {
+                    if (table.IsOccupied(i, Y)) return false;
+                }
+                return true;
+            }
+        }
+
+        return false;
+    }
 }

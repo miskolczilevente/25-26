@@ -1,32 +1,33 @@
-﻿using System;
+﻿using AIChess;
 
-namespace AIChess
+public class Pawn : Puppet
 {
-    public class Pawn : Puppet
+    public override string Symbol => "♙";
+    public bool HasMoved { get; set; } = false;
+
+    public override bool IsValidMove(int targetX, int targetY, Table table)
     {
-        public override string Symbol => "♙";
+        int dir = IsWhite ? -1 : 1;
+        int startRow = IsWhite ? 6 : 1;
 
-        public override bool IsValidMove(int targetX, int targetY, Table table)
-        {
-            int direction = IsWhite ? -1 : 1;
-            int startRow = IsWhite ? 6 : 1;
+        if (X == targetX && Y + dir == targetY && !table.IsOccupied(targetX, targetY))
+            return true;
 
-            // sima lépés előre
-            if (X == targetX && Y + direction == targetY && !table.IsOccupied(targetX, targetY))
-                return true;
+        if (!HasMoved && X == targetX && Y == startRow && Y + 2 * dir == targetY &&
+            !table.IsOccupied(targetX, Y + dir) && !table.IsOccupied(targetX, targetY))
+            return true;
 
-            // dupla lépés az első sorból
-            if (X == targetX && Y == startRow && Y + 2 * direction == targetY &&
-                !table.IsOccupied(targetX, Y + direction) &&
-                !table.IsOccupied(targetX, targetY))
-                return true;
+        if (Math.Abs(targetX - X) == 1 && targetY == Y + dir &&
+            table.IsOccupiedByOpponent(targetX, targetY, IsWhite))
+            return true;
 
-            // ütés átlósan
-            if (Math.Abs(targetX - X) == 1 && targetY == Y + direction &&
-                table.IsOccupiedByOpponent(targetX, targetY, IsWhite))
-                return true;
+        return false;
+    }
 
-            return false;
-        }
+    public void Move(int targetX, int targetY)
+    {
+        X = targetX;
+        Y = targetY;
+        HasMoved = true;
     }
 }
