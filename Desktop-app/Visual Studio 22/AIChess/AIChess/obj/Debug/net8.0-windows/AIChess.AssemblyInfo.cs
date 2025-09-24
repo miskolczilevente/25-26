@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AIChess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64455d1ec5171385b408e1780609e4f75152c360")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee956550233440bfb5e7f02c87ca2010f13afc72")]
 [assembly: System.Reflection.AssemblyProductAttribute("AIChess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AIChess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

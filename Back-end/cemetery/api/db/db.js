@@ -1,3 +1,5 @@
+// ORM = Object-Relational-Mapping
+
 const { Sequelize } = require("sequelize");
 
 const sequelize = new Sequelize
@@ -7,22 +9,45 @@ const sequelize = new Sequelize
     process.env.DB_PASSWORD,
 
     {
+        dialect: process.env.DB_DIALECT,
         host: process.env.DB_HOST,
-        dialect: process.env.DB_DIALECT
+        logging: false,
     }
 );
 
-(async () =>                // EZT A RÉSZT (15. sortól - 27.-sorig nem kell tudni)
+(async () => 
 {
     try
     {
         await sequelize.authenticate();
-
-        console.log("Database connection successful");
+        console.error("Database connection OK");
     }
     catch(error)
     {
-        console.log("Database connection failed");
+        console.error("Database connection failed");
     }
 })();
 
+const models = require("../models")(sequelize);
+
+const db = 
+{
+    sequelize,
+    Sequelize,
+    ...models,
+};
+
+(async () => 
+{
+    try
+    {
+        await db.sequelize.sync({ force: true });
+        console.log("Database sync OK!");
+    }
+    catch(error)
+    {
+        console.error("Database sync failed");
+    }
+})();
+
+module.exports = db;
