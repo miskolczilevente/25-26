@@ -10,27 +10,29 @@ module.exports = (sequelize, DataTypes) =>
             ID:
             {
                 type: DataTypes.INTEGER,
+                allowNull: false,
                 primaryKey: true,
-                autoIncrement: true,
+                autoIncrement: true
             },
 
             last_name:
             {
                 type: DataTypes.STRING,
+                allowNull: false,
             },
 
             first_name:
             {
-                type: DataTypes.STRING(50),
-            }
+                type: DataTypes.STRING(30),
+                allowNull: false,
+            },        
         },
 
         {
             sequelize,
             modelName: "Person",
             freezeTableName: true,
-            updatedAt: false,
-            createdAt: "diedAt",
+            timestamps: false,
         }
     );
 

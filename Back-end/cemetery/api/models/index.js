@@ -2,7 +2,7 @@ const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) =>
 {
-    const Person = require("./Person")(sequelize, DataTypes);
+    const Person = require("./person")(sequelize, DataTypes);
 
-    return [ Person ];
+    return { Person };
 }
