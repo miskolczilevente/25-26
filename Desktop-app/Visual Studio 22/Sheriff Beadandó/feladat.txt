@@ -1,0 +1,55 @@
+Ebben a feladatban egy vadnyugati városban játszódó 2D-s szimulációt készítünk, ahol seriff, banditák és aranyrögök találhatók. A cél, hogy a seriff túléljen, összegyűjtse az aranyat, és megakadályozza, hogy a banditák kifosszák a várost, miközben harcol velük.
+
+1. Alapfeltételek
+Osztályok: Minden játékelem a VarosElem absztrakt osztályból származik, amely közvetlenül nem példányosítható.
+Kirajzolás: A pálya kirajzolása minden szimulációs lépés után frissül, vagy console clearral, vagy az általad kiválasztott környezetben arra használatos metódussal.
+Pálya mérete: A város egy 25x25-ös VarosElem mátrix, amit a Varos osztály kezel (nem console megjelenítés esetében ezt változtathatod).
+
+2. A pálya elemei
+Város: A városban különböző elemek találhatóak, melyek véletlenszerűen generálódnak:
+1 seriff: A seriff feladata az aranyrögök felderítése és begyűjtése, valamint a banditák legyőzése.
+4 bandita: A banditák ellenségesek, és megpróbálják megszerezni az aranyrögöket.
+5 aranyrög: A seriffnek ezeket kell begyűjtenie, hogy megmentse a várost.
+3 whiskey üveg: Ezek visszaállítják a seriff életerejét 50 egységgel.
+Barikádok: A városban található fából készült akadályok, amelyeken nem lehet áthaladni. Véletlenszerűen generálódnak, figyelve, hogy senki se legyen elzárva olyan feladatoktól, amiket teljesíteni kell. Erre írj egy külön ellenőrző függvényt, vagy egy olyan generálási metódust, ami garantálja ezt.
+Ezt a metódust be kell tudnod mutatni és megérvelni.
+Városháza: Ez a kijárat, ha a seriff megszerzi az összes aranyrögöt, itt tud kijutni és megnyerni a játékot. Amíg a megfelelő feltételek nem teljesülnek, addig ez az elem bár megtalálható a pályán, kikapcsolt állapotban van.
+
+3. Karakterek és tulajdonságok
+Seriff: A seriffnek 100 egység életereje van, és véletlenszerű sebzése 20 és 35 közötti, ezt születéskor kapja. Célja, hogy begyűjtse az aranyrögöket, elkerülje vagy megkűzdjön a banditákkal, és kijusson a városházán keresztül. Ha a seriff 5 aranyrögöt megszerez, megnyeri a játékot.
+
+Banditák: A banditáknak 100 életerejük van, és 4-15 közötti random, harcközben valószínűsített sebzéssel rendelkeznek. 
+A banditák 70%-kal lassabban mozognak, mint a seriff és alapvetően csak egy maguk körüli 3x3-as mezőt látnak, mindig az aktuálisat, ha valamit "felfedeztek", elfelejtik, mert buták.
+Egy bandita csak akkor támad, ha a seriff melletti mezőn van, viszont ha a seriff a látóterébe kerül, akkor elkezdheti követni, amíg el nem veszíti.
+
+A banditák célja az arany megszerzése és a seriff felfedezése esetében annak megtámadása.
+Ha egy bandita talált egy aranyrögöt, felszedi.
+
+Látótér: A seriff csak egy 3x3-as területet lát maga körül. Nem láthatja az egész várost, viszont amit ő egyszer lát, azt megjegyzi és "felfedett" területté válik.
+
+Ha a seriff felderítette az egész pályát, és nincs meg az összes aranyrög, elmegy banditákra vadászni, amíg meg nem találja az összes aranyrögöt.
+
+A seriff egyszerre csak 1 banditát üthet, azonban ha a seriff már harcol egy banditával és egy másik bandita odatéved, ők viszont üthetik ketten (vagy többen) a seriffet.
+Ha a seriffnek kezd fogyni a hp-ja, menekülő módba vált, hogy elég whiskyt igyon a healelődéshez.
+
+4. A játék célja és logika
+Feladatok: A seriff két fő célt követ:
+Aranyrög keresése: Amennyiben a seriff nem rendelkezik elegendő arannyal, feladata az aranyrögök felkutatása és begyűjtése.
+Banditák megölése: Ha a seriffnek szüksége van aranyrögre, mert máshol nem lehet, észrevesz egy banditát, megtámadja, és harcot kezdeményez. 
+Seriff üldözése: Ha a banditák észreveszik a seriffet, a seriff automatikusan leáll kűzdeni, ha viszont nagy rizikót vél felfedezni a harcban, elfut.
+A whiskeys üvegek 50 életerőt töltenek vissza, és ha egy üveget elfogyasztanak, egy új jelenik meg véletlenszerűen a pályán.
+Ha egy felderített mezőre kerül új whiskey üveg, a seriff látni fogja, hiszen a területet már ismeri.
+Emlékezőképesség: Ha a seriff már felfedezett egy aranyrögöt, de nem tudja azt azonnal begyűjteni (mert menekülés közben látta meg), megjegyzi a helyét, és később visszatérhet érte. Az ismeretlen területeket csak akkor deríti fel, ha nincs tudomása aranyrögről vagy banditáról ismert területen, tehát előbb áll neki banditát ölni, mint felfedezni. Ez egy aggresszív seriff.
+
+
+- Minden ágensnek van tehát célja, amiket definiálni kell az osztályokban. Az ágens "gondolkodása", tehát a logikai motorja nem kerülhet ki az ágenshez tartozó osztályon kívülre, az ilyen megvalósítás értékelhetetlenné teszi a beadandót.
+- Minden ágens osztálynak rendelkeznie kell egy saját mappel, tehát nem a pályában kókányolunk és keresgetünk, hanem csinálunk egy "agyat", amit felfedezés során feltöltünk a felfedezett mezőkkel, így pl a Seriffnek egy jó barangolás után összeáll az egész pálya ismerete. A banditának nyilván nem fog, neki csak a saját aktuális mátrixa létezik.
+- Ebből következik ugyan, de az ágens a SAJÁT MAPJÁT vizsgálva dönt és cselekszik! Ennek nem betartása szintén értékelhetetlenné teszi a beadandót.
+- Az ágenseknek rendelkeziük kell egy combat() függvénnyel (bár ez egyértelmű), amiben a harcot bonyolítják.
+- A seriff életereje, valamint a banditák száma statikusan követve van, és minden kör végén megjelenik a képernyő alján.
+- Harc esetén megjelenik a támadó bandita vagy banditák életereje a pálya alatt.
+- A játék akkor ér véget, ha:
+A seriff meghal, mert elveszíti az életerejét a banditákkal való harcban.
+A seriff elhagyja a várost, miután összegyűjtötte az 5 aranyrögöt és kijutott a városházán keresztül.
+- Keríts rá egy grafikai logikát, hogyan jeleníted meg, hogy melyik ágens számára mely mezők láthatóak vagy felfedezettek. A pálya és a megjelenítés nyilván olvashatja az ágensek felfedezett mapját (pl.: az ágensnek van egy getMyDiscoveredMap() fgv-je), csak fordítva nem!
+
