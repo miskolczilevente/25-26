@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Dynamic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Wild_West.Map
+﻿namespace Wild_West
 {
-    abstract class TownHall : TownComponent
+    public sealed class TownHall : MapObject
     {
-        
-
+        public bool Active { get; set; } = false;
+        public override bool Walkable => Active; // csak aktívan átjárható
     }
 }

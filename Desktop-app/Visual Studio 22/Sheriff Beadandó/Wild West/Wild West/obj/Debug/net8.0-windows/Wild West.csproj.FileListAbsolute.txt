@@ -1,0 +1,17 @@
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\bin\Debug\net8.0-windows\Wild West.exe
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\bin\Debug\net8.0-windows\Wild West.deps.json
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\bin\Debug\net8.0-windows\Wild West.runtimeconfig.json
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\bin\Debug\net8.0-windows\Wild West.dll
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\bin\Debug\net8.0-windows\Wild West.pdb
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\obj\Debug\net8.0-windows\Wild_West.Form1.resources
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\obj\Debug\net8.0-windows\Wild West.csproj.GenerateResource.cache
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\obj\Debug\net8.0-windows\Wild West.GeneratedMSBuildEditorConfig.editorconfig
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\obj\Debug\net8.0-windows\Wild West.AssemblyInfoInputs.cache
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\obj\Debug\net8.0-windows\Wild West.AssemblyInfo.cs
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\obj\Debug\net8.0-windows\Wild West.csproj.CoreCompileInputs.cache
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\obj\Debug\net8.0-windows\Wild West.sourcelink.json
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\obj\Debug\net8.0-windows\Wild West.dll
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\obj\Debug\net8.0-windows\refint\Wild West.dll
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\obj\Debug\net8.0-windows\Wild West.pdb
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\obj\Debug\net8.0-windows\Wild West.genruntimeconfig.cache
+H:\!25-26\25-26\Desktop-app\Visual Studio 22\Sheriff Beadandó\Wild West\Wild West\obj\Debug\net8.0-windows\ref\Wild West.dll

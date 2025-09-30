@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\mapobjects\\townhall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\mapobjects\\townhall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\gamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\gamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\mapobjects\\barricade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\mapobjects\\barricade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\characters\\bandit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\characters\\bandit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\characters\\sheriff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\characters\\sheriff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\characters\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\characters\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\items\\whiskey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,19 +39,31 @@
       "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\items\\goldnugget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\characters\\sheriff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\characters\\sheriff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\characters\\bandit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\characters\\bandit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\mapobjects\\empty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\mapobjects\\empty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\mapobjects\\townhall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\mapobjects\\townhall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\mapobjects\\barricade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\mapobjects\\barricade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\mapobjects\\mapobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\mapobjects\\mapobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\towncomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\towncomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|h:\\!25-26\\25-26\\desktop-app\\visual studio 22\\sheriff beadand\u00F3\\wild west\\wild west\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\wild west\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{437D73B4-C15B-4E7B-9E06-BB252BE1653C}|Wild West\\Wild West.csproj|solutionrelative:wild west\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -42,114 +74,218 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TownHall.cs",
-              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\MapObjects\\TownHall.cs",
-              "RelativeDocumentMoniker": "Wild West\\MapObjects\\TownHall.cs",
-              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\MapObjects\\TownHall.cs",
-              "RelativeToolTip": "Wild West\\MapObjects\\TownHall.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Form1.cs",
+              "RelativeDocumentMoniker": "Wild West\\Form1.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Form1.cs",
+              "RelativeToolTip": "Wild West\\Form1.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAwwH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T11:21:00.746Z",
+              "WhenOpened": "2025-09-30T06:26:01.747Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Barricade.cs",
-              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\MapObjects\\Barricade.cs",
-              "RelativeDocumentMoniker": "Wild West\\MapObjects\\Barricade.cs",
-              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\MapObjects\\Barricade.cs",
-              "RelativeToolTip": "Wild West\\MapObjects\\Barricade.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T11:15:19.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Whiskey.cs",
-              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Items\\Whiskey.cs",
-              "RelativeDocumentMoniker": "Wild West\\Items\\Whiskey.cs",
-              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Items\\Whiskey.cs",
-              "RelativeToolTip": "Wild West\\Items\\Whiskey.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T11:14:26.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GoldNugget.cs",
-              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Items\\GoldNugget.cs",
-              "RelativeDocumentMoniker": "Wild West\\Items\\GoldNugget.cs",
-              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Items\\GoldNugget.cs",
-              "RelativeToolTip": "Wild West\\Items\\GoldNugget.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T11:14:16.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TownComponent.cs",
-              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\TownComponent.cs",
-              "RelativeDocumentMoniker": "Wild West\\TownComponent.cs",
-              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\TownComponent.cs",
-              "RelativeToolTip": "Wild West\\TownComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T11:12:16.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Bandit.cs",
               "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Characters\\Bandit.cs",
               "RelativeDocumentMoniker": "Wild West\\Characters\\Bandit.cs",
               "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Characters\\Bandit.cs",
               "RelativeToolTip": "Wild West\\Characters\\Bandit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T11:10:33.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "GameHandler.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\GameHandler.cs",
+              "RelativeDocumentMoniker": "Wild West\\GameHandler.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\GameHandler.cs",
+              "RelativeToolTip": "Wild West\\GameHandler.cs",
+              "ViewState": "AgIAAGMBAAAAAAAAAAAAAIcBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T06:22:23.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Sheriff.cs",
               "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Characters\\Sheriff.cs",
               "RelativeDocumentMoniker": "Wild West\\Characters\\Sheriff.cs",
               "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Characters\\Sheriff.cs",
               "RelativeToolTip": "Wild West\\Characters\\Sheriff.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAqwKcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T11:10:22.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Program.cs",
+              "RelativeDocumentMoniker": "Wild West\\Program.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Program.cs",
+              "RelativeToolTip": "Wild West\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T06:24:49.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Character.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Characters\\Character.cs",
+              "RelativeDocumentMoniker": "Wild West\\Characters\\Character.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Characters\\Character.cs",
+              "RelativeToolTip": "Wild West\\Characters\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T06:14:54.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Wild West\\Form1.Designer.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Form1.Designer.cs",
+              "RelativeToolTip": "Wild West\\Form1.Designer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T06:27:37.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Whiskey.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Items\\Whiskey.cs",
+              "RelativeDocumentMoniker": "Wild West\\Items\\Whiskey.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Items\\Whiskey.cs",
+              "RelativeToolTip": "Wild West\\Items\\Whiskey.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T11:14:26.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GoldNugget.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Items\\GoldNugget.cs",
+              "RelativeDocumentMoniker": "Wild West\\Items\\GoldNugget.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Items\\GoldNugget.cs",
+              "RelativeToolTip": "Wild West\\Items\\GoldNugget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T11:14:16.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Item.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Items\\Item.cs",
+              "RelativeDocumentMoniker": "Wild West\\Items\\Item.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Items\\Item.cs",
+              "RelativeToolTip": "Wild West\\Items\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:14:35.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Empty.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\MapObjects\\Empty.cs",
+              "RelativeDocumentMoniker": "Wild West\\MapObjects\\Empty.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\MapObjects\\Empty.cs",
+              "RelativeToolTip": "Wild West\\MapObjects\\Empty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:53:22.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TownHall.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\MapObjects\\TownHall.cs",
+              "RelativeDocumentMoniker": "Wild West\\MapObjects\\TownHall.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\MapObjects\\TownHall.cs",
+              "RelativeToolTip": "Wild West\\MapObjects\\TownHall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T11:21:00.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Barricade.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\MapObjects\\Barricade.cs",
+              "RelativeDocumentMoniker": "Wild West\\MapObjects\\Barricade.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\MapObjects\\Barricade.cs",
+              "RelativeToolTip": "Wild West\\MapObjects\\Barricade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T11:15:19.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MapObject.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\MapObjects\\MapObject.cs",
+              "RelativeDocumentMoniker": "Wild West\\MapObjects\\MapObject.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\MapObjects\\MapObject.cs",
+              "RelativeToolTip": "Wild West\\MapObjects\\MapObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:14:46.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TownComponent.cs",
+              "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\TownComponent.cs",
+              "RelativeDocumentMoniker": "Wild West\\TownComponent.cs",
+              "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\TownComponent.cs",
+              "RelativeToolTip": "Wild West\\TownComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T11:12:16.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Form1.cs",
               "RelativeDocumentMoniker": "Wild West\\Form1.cs",
               "ToolTip": "H:\\!25-26\\25-26\\Desktop-app\\Visual Studio 22\\Sheriff Beadand\u00F3\\Wild West\\Wild West\\Form1.cs [Design]",
               "RelativeToolTip": "Wild West\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T11:06:39.69Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-09-26T11:06:39.69Z"
             }
           ]
         }

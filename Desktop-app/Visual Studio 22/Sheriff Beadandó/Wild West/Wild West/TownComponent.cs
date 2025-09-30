@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Wild_West
 {
-    internal class TownComponent
+    public abstract class TownComponent
     {
-        int[,] MapMatrix = new int[25, 25];
-
-
+        public int X { get; set; }
+        public int Y { get; set; }
+        public virtual bool Walkable => true;
     }
 }
