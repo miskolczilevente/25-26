@@ -17,6 +17,9 @@ namespace Wild_West.Characters
 
         public bool IsFleeing => HP <= 40;
 
+        public bool[,] GetMyDiscoveredMap() => Discovered;
+
+
         public Sheriff(int size)
         {
             DamageRange = (20, 35);
@@ -49,6 +52,21 @@ namespace Wild_West.Characters
             // 2) Pickup
             if (world.Grid[X, Y] is Item it) Pickup(world, it);
 
+            // 3/a) Ha bármelyik bandita LÁT (3×3), akkor ne folytassuk a normál célokat.
+            // Ha nagy a rizikó (kevés HP), meneküljünk whiskey felé, különben csak "készüljünk" (nem váltunk új célra).
+            bool beingChased = bandits.Any(b => Math.Abs(b.X - X) <= 1 && Math.Abs(b.Y - Y) <= 1);
+            if (beingChased && !bandits.Any(b => Math.Abs(b.X - X) + Math.Abs(b.Y - Y) == 1))
+            {
+                if (IsFleeing)
+                {
+                    MoveTowards(world, world.FindNearestKnown<Whiskey>(this) ?? world.FindAnySafe(this));
+                    return;
+                }
+                // ha nem kritikus a HP, itt egyszerűen nem váltunk új célra (folytatódik a későbbi célprioritás),
+                // de a "harc" eset (szomszédos bandita) úgyis azonnal kezelve lesz lejjebb.
+            }
+
+
             // 3) Harc – ha mellettünk bandita van
             var adjacentBandits = bandits.Where(b => Math.Abs(b.X - X) + Math.Abs(b.Y - Y) == 1).ToList();
             if (adjacentBandits.Count > 0)
@@ -64,6 +82,30 @@ namespace Wild_West.Characters
                 }
                 return;
             }
+
+            // *** ÚJ: ha nincs ismert arany és a pályán sincs már lerakott arany,
+            // akkor a hiányzó arany banditánál van -> vadászat ***
+            if (GoldCount < City.RequiredGold && KnownGolds.Count == 0 && !world.IsAnyGoldOnGround())
+            {
+                var visible = bandits.FirstOrDefault(b => Math.Abs(b.X - X) <= 1 && Math.Abs(b.Y - Y) <= 1);
+                if (visible != null)
+                {
+                    MoveTowards(world, (visible.X, visible.Y));
+                    return;
+                }
+
+                if (KnownBandits.Count > 0)
+                {
+                    var target = KnownBandits.OrderByDescending(k => k.seenTick).First();
+                    MoveTowards(world, (target.x, target.y));
+                    return;
+                }
+
+                var huntExplore = world.FindNearestUnknown(this);
+                MoveTowards(world, huntExplore);
+                return;
+            }
+
 
             // 4) Célok prioritása
             // 4/a) Ha megvan az összes arany és a városháza aktív -> kijárat

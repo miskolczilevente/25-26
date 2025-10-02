@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Drawing;
 
 namespace Wild_West
 {
@@ -7,5 +7,6 @@ namespace Wild_West
         public int X { get; set; }
         public int Y { get; set; }
         public virtual bool Walkable => true;
+
     }
 }

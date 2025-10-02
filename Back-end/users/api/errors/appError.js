@@ -9,9 +9,9 @@ class AppError extends Error
 
         this.isOperational = isOperational;
 
-        this.details = details;
+        this.details = process.env.NODE_ENV !== "production" ? details : undefined;
 
-        this.data = data;
+        this.data = process.env.NODE_ENV !== "production" ? data : undefined;
 
         process.env.NODE_ENV !== "production" ? Error.captureStackTrace(this, this.constructor) : undefined;
     }

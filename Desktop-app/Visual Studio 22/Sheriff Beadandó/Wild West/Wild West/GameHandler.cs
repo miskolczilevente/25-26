@@ -23,12 +23,24 @@ namespace Wild_West
 
         private static readonly Random Rng = new Random();
 
+
         public City()
         {
             for (int y = 0; y < Size; y++)
                 for (int x = 0; x < Size; x++)
                     Grid[x, y] = new Empty { X = x, Y = y };
         }
+
+        // Van-e még arany a pályán lerakva? (Nem számolja a banditáknál lévő aranyat.)
+        public bool IsAnyGoldOnGround()
+        {
+            for (int y = 0; y < Size; y++)
+                for (int x = 0; x < Size; x++)
+                    if (Grid[x, y] is Wild_West.Items.GoldNugget)
+                        return true;
+            return false;
+        }
+
 
         public void Generate()
         {
@@ -345,6 +357,7 @@ namespace Wild_West
 
         public GameHandler() => City.Generate();
 
+        
         public void Tick()
         {
             if (GameOver) return;
