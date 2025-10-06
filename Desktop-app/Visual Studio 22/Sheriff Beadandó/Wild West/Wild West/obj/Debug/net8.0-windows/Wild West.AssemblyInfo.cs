@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wild West")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bfc0a6d84041c7f0650835c924af7111753b63c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c1b32136c146486869135c5627332ef74a36e83")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wild West")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wild West")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

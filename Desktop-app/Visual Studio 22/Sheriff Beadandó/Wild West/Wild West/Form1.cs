@@ -90,13 +90,6 @@ namespace Wild_West
         }
 
 
-        private void GameOverReset(Button resetBtn)
-        {
-            resetBtn.Visible = false;
-            timer.Start();
-        }
-
-
         protected override void OnPaint(PaintEventArgs e)
         {
             base.OnPaint(e);
