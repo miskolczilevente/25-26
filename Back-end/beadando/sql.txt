@@ -1,0 +1,57 @@
+-- 1. HALLGATÓK TÁBLA
+CREATE TABLE Student (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    nev VARCHAR(100) NOT NULL,
+    szuletesi_datum DATE,
+    email VARCHAR(100) UNIQUE,
+    szak VARCHAR(100)
+);
+
+-- 2. OKTATÓK TÁBLA
+CREATE TABLE Teacher (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    nev VARCHAR(100) NOT NULL,
+    tanszek VARCHAR(100),
+    email VARCHAR(100) UNIQUE,
+    beosztas VARCHAR(50)
+);
+
+-- 3. KURZUSOK TÁBLA
+CREATE TABLE Course (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    kurzus_nev VARCHAR(100) NOT NULL,
+    kredit INT,
+    teacher_id INT,
+    FOREIGN KEY (teacher_id) REFERENCES teachers(teacher_id)
+);
+
+-- 4. BEIRATKOZÁS TÁBLA
+CREATE TABLE Enrollment (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    student_id INT,
+    course_id INT,
+    beiratkozasi_datum DATE,
+    jegy INT CHECK (jegy BETWEEN 1 AND 5),
+    FOREIGN KEY (student_id) REFERENCES students(student_id),
+    FOREIGN KEY (course_id) REFERENCES courses(course_id)
+);
+
+-- 5. TANTERMEK TÁBLA
+CREATE TABLE Classroom (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    epulet VARCHAR(50),
+    terem_szam VARCHAR(10),
+    ferohely INT
+);
+
+-- 6. ÓRAREND TÁBLA
+CREATE TABLE Schedule (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    course_id INT,
+    classroom_id INT,
+    nap VARCHAR(20),
+    kezdet TIME,
+    vege TIME,
+    FOREIGN KEY (course_id) REFERENCES courses(course_id),
+    FOREIGN KEY (classroom_id) REFERENCES classrooms(classroom_id)
+);
