@@ -10,9 +10,13 @@ app.use(express.urlencoded({ extended: true }));
 
 const studentRoutes = require("./api/routes/studentRoutes");
 
+const teacherRoutes = require("./api/routes/teacherRoutes");
+
 app.use("/api", api);
 
 api.use("/students", studentRoutes);
+
+api.use("/teachers", teacherRoutes)
 
 const errorHandler = require("./api/middlewares/errorHandler");
 
