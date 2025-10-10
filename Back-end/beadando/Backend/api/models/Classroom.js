@@ -14,7 +14,7 @@ module.exports = (sequelize) =>
                 autoIncrement: true,
                 allowNull: false,
             },
-            buidling:
+            building:
             {
                 type: DataTypes.STRING,
                 allowNull: false,

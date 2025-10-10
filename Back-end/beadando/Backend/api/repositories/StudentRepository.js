@@ -1,3 +1,4 @@
+const { where } = require("sequelize");
 const { DbError } = require("../errors");
 
 class StudentsRepository
@@ -24,6 +25,21 @@ class StudentsRepository
         }
     }
 
+    async getStudentById(id) 
+    {
+        try 
+        {
+            return await this.Student.findByPk(id);
+        }
+        catch (error) 
+        {
+            throw new DbError("Failed to fetch studentById",
+            {
+                details: error.message,
+            });
+        }
+    }
+
     async createStudent(studentData)
     {
         try
@@ -37,6 +53,34 @@ class StudentsRepository
                details: error.message,
                data: studentData, 
             });
+        }
+    }
+
+    async deleteStudent(id)
+    {
+        try 
+        {
+            return await this.Student.destroy({where: { ID: id } });
+        } catch (error) {
+            throw new DbError("Failed to delete student object",
+            {
+                details: error.message,
+            })
+        }
+    }
+
+    async updateStudent(id, studentData) 
+    {
+        try 
+        {
+            return await this.Student.update( studentData, {where: { ID: id}  })
+        }
+        catch (error) 
+        {
+            throw new DbError("Failed to update student object",
+            {
+                details: error.message,
+            })
         }
     }
 }

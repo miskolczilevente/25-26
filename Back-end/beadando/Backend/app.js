@@ -12,11 +12,15 @@ const studentRoutes = require("./api/routes/studentRoutes");
 
 const teacherRoutes = require("./api/routes/teacherRoutes");
 
+const classroomRoutes = require("./api/routes/classroomRoutes")
+
 app.use("/api", api);
 
 api.use("/students", studentRoutes);
 
 api.use("/teachers", teacherRoutes)
+
+api.use("/classrooms", classroomRoutes)
 
 const errorHandler = require("./api/middlewares/errorHandler");
 
