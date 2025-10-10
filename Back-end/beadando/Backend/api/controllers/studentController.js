@@ -16,11 +16,11 @@ exports.getStudents = async (req, res, next) =>
 
 exports.createStudent = async (req, res, next) =>
 {
-    const { studentname, password } = req.body || {};
+    const { name, birth_date, email ,major } = req.body || {};
 
     try
     {
-        res.status(201).json(await studentService.createStudent({ name: studentname, password }));
+        res.status(201).json(await studentService.createStudent({ name, birth_date, email ,major  }));
     }
     catch(error)
     {
