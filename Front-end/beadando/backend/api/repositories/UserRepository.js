@@ -17,7 +17,7 @@ class UserRepository
         {
             return await this.User.findAll(
             {
-                attributes: [ "name", "email", "registeredAt" ],
+                attributes: [ "id","name", "email", "registeredAt" ],
             });
         }
         catch(error)
@@ -70,6 +70,34 @@ class UserRepository
                details: error.message,
                data: userData, 
             });
+        }
+    }
+
+    async deleteUser(userID)
+    {
+        try 
+        {
+            return await this.User.destroy({where: { ID: userID } });
+        } catch (error) {
+            throw new DbError("Failed to delete student object",
+            {
+                details: error.message,
+            })
+        }
+    }
+
+    async updateUser(userID, userData)
+    {
+        try 
+        {
+            return await this.User.update( userData, {where: { ID: userID}  })
+        }
+        catch (error) 
+        {
+            throw new DbError("Failed to update student object",
+            {
+                details: error.message,
+            })
         }
     }
 }

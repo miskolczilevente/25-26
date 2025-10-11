@@ -17,4 +17,8 @@ router.param("userID", (req, res, next, userID) =>
 
 router.get("/:userID", userController.getUser);
 
+router.delete("/:userID", userController.deleteUser);
+
+router.put("/:userID", userController.updateUser)
+
 module.exports = router;
